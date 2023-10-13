@@ -1,0 +1,30 @@
+.col-md-4 {
+  width: 30%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-button {
+  text-decoration: none;
+  background: #8647e9;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-danger {
+  border-radius: 5px;
+  background: #ff5656;
+  color: white;
+}
+
+.card {
+  max-width: 300px;
+}
