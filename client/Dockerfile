@@ -23,7 +23,7 @@ FROM nginx:1.25.2-alpine-slim
 COPY --from=builder /app/build /usr/share/nginx/html
 
 # Open the port for react
-EXPOSE 3000
+EXPOSE 80
 
 # Run nginx in foreground
 CMD ["nginx", "-g", "daemon off;"]
