@@ -7,12 +7,13 @@ services:
     build:
       context: ./server
       dockerfile: Dockerfile
+      
     container_name: backend
     ports:
       - "5000:5000"
     env_file: ./.env
     environment:
-      - DB_HOST=mongodb_server
+      - DB_HOST=mongodb
       - DB_USER=$MONGODB_USER
       - DB_PASSWORD=$MONGODB_PASSWORD
       - DB_NAME=$MONGODB_DATABASE
