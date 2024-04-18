@@ -47,7 +47,7 @@ services:
       - "27017:27017"
 
     volumes:
-      - ./mydata:/data/db
+      - ./../mydata:/data/db
 
 # Volumes define
 volumes: 
