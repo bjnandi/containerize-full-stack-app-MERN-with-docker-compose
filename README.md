@@ -1,4 +1,44 @@
-# Cloudinary CRUD Operations MERN Stack Application
+# Containerize Your Full Stack Web Application (MERN) with Docker Compose
+
+Welcome to our comprehensive guide on Containerizing a full stack Web MERN (MongoDB, Express.js, React, Node.js) application using Docker Compose involves creating separate containers for each component of the application & defining their configurations in a docker-compose.yml file.
+
+By integrating Grafana for dashboards, Loki for log aggregation, and Prometheus for metrics collection, this setup with advanced alerting, receive timely notifications based on custom thresholds.
+
+# Diagram
+[![Containerize Your Full Stack Web Application (MERN) with Docker Compose TechTips CloudComputing DevOps DevOpsTools DevOpsPipeline DevOpsLife bjnandi biswajitnandi Biswajit Nandi](/Containerize.webp)](https://github.com/bjnandi/containerize-full-stack-app-MERN-with-docker-compose "Containerize Your Full Stack Web Application (MERN) with Docker Compose")
+
+# Demo
+[![Containerize Your Full Stack Web Application (MERN) with Docker Compose TechTips CloudComputing DevOps DevOpsTools DevOpsPipeline DevOpsLife bjnandi biswajitnandi Biswajit Nandi](/Containerize.gif)](https://github.com/bjnandi/containerize-full-stack-app-MERN-with-docker-compose "Containerize Your Full Stack Web Application (MERN) with Docker Compose")
+
+
+## For more Details
+
+### Containerize Your Full Stack Web Application (MERN) with Docker Compose <br>
+https://medium.com/@bjnandi/containerize-your-full-stack-web-application-mern-with-docker-compose-4900156ba9dd
+
+
+### 📣 Follow & Show Your Support ⭐️
+
+If you found this project helpful, please give it a star! ⭐️ It helps others discover the project and motivates us to continue improving it.
+
+Stay updated with my latest projects and articles:
+
+- **GitHub**: Follow me on [GitHub](https://github.com/bjnandi) to see my latest repositories and contributions.  
+  [![Follow @bjnandi](https://img.shields.io/github/followers/bjnandi?label=Follow%20%40bjnandi&style=social)](https://github.com/bjnandi)
+
+- **Medium**: Follow me on [Medium](https://medium.com/@bjnandi) to read my latest articles and insights.  
+  ![Medium Badge](https://img.shields.io/badge/Medium-Follow%20Me%20on%20Medium-000?logo=medium&style=social)
+
+<br>
+Thank you for your support and interest in my work! <br>
+Happy coding! 💻✨
+<br><br>
+
+**🙏 Special Thanks:** A huge thank you to [@doubtcrack](https://github.com/doubtcrack) for amazing MERN Stack base [Cloudinary-CRUD-Operations](https://github.com/doubtcrack/Cloudinary-CRUD-Operations) projects!
+
+<hr>
+
+## Cloudinary CRUD Operations MERN Stack Application
 
 ![CloudinaryCRUD](https://blogger.googleusercontent.com/img/a/AVvXsEjxAV4b4O51XK-glRlRGRyOl6ctrfN_Ch0JCQHN05kxSTgvdRo7Q98y8SzMnuvROuQEj1w10HZTemiUZpbLw6bfy6fctqOBBJa83RfDzKruLRn234FqlZJxW5FMJixVuwIgVH9tbD2uro31T2FvP7zkcXjHYR29ZfZY3G1YoYLRZ8Pv0ycADkX7-AyKGKlZ=w1200-h1200)
 
