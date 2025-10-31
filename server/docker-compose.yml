@@ -1,0 +1,37 @@
+services:
+  server:
+    image : adeem07/server-api:latest
+    restart: always
+    build:
+      context: . 
+      dockerfile: Dockerfile
+    container_name: server-api-container 
+    ports:
+      - "3002:5000"
+    env_file: .env
+    depends_on:
+      - mongo
+
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ademm
+      MONGO_INITDB_ROOT_PASSWORD: ademm123
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://ademm:ademm123@mongo:27017/testdb?authSource=admin
+      ME_CONFIG_BASICAUTH_ENABLED: true
+      ME_CONFIG_BASICAUTH_USERNAME: mongo
+      ME_CONFIG_BASICAUTH_PASSWORD: mongo123    
+
+
+
+
+
